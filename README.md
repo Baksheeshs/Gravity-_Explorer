@@ -11,39 +11,33 @@
 [![SceneKit](https://img.shields.io/badge/SceneKit-3D%20Physics-5856D6?style=for-the-badge&logo=apple&logoColor=white)](https://developer.apple.com/scenekit/)
 [![Apple Intelligence](https://img.shields.io/badge/Apple%20Intelligence-AI%20Powered-FF9500?style=for-the-badge&logo=apple&logoColor=white)](https://developer.apple.com/apple-intelligence/)
 
----
-
 </div>
+
+---
 
 ## 📱 Screenshots
 
-<div align="center">
+<p align="center">
+  <img src="screenshots/home.png" width="220" alt="Home Screen"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/sandbox.png" width="220" alt="Solar System Sandbox"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/quiz.png" width="220" alt="Quiz"/>
+</p>
 
-<table>
-<tr>
-<td align="center"><b>🏠 Home Screen</b></td>
-<td align="center"><b>🌍 What is Gravity?</b></td>
-<td align="center"><b>🔴 Planet Explorer</b></td>
-</tr>
-<tr>
-<td><img src="screenshots/home_screen.png" width="250"/></td>
-<td><img src="screenshots/gravity_module.png" width="250"/></td>
-<td><img src="screenshots/planet_explorer.png" width="250"/></td>
-</tr>
-</table>
+<p align="center">
+  <img src="screenshots/planet_explorer.png" width="220" alt="Planet Explorer"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/sandbox_tuned.png" width="220" alt="Sandbox Parameter Tuning"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/ai_chat.png" width="220" alt="Gravity AI Chat"/>
+</p>
 
-<table>
-<tr>
-<td align="center"><b>🪐 Solar System Sandbox</b></td>
-<td align="center"><b>⚙️ Sandbox — Parameter Tuning</b></td>
-</tr>
-<tr>
-<td><img src="screenshots/sandbox_default.png" width="250"/></td>
-<td><img src="screenshots/sandbox_adjusted.png" width="250"/></td>
-</tr>
-</table>
+---
 
-</div>
+## 🎬 Demo Video
+
+https://github.com/Baksheeshs/Gravity-_Explorer/raw/main/media/demo.mp4
 
 ---
 
@@ -74,7 +68,6 @@
 - Powered by **Apple Intelligence** (Foundation Models)
 - Specialized gravity and space physics educator
 - Full chat interface with markdown rendering and suggested questions
-- Graceful degradation with device compatibility checks
 
 ### 🎯 Quiz System
 - **30 multiple-choice questions** (5 per module) with detailed explanations
@@ -83,9 +76,7 @@
 
 ### 🎵 Procedural Audio Engine
 - **Ambient space drone** — real-time sine wave synthesis (55Hz sub-bass + 111Hz overtone with LFO)
-- **Collision SFX** — white noise burst with descending sine sweep
-- **Merge SFX** — deep rumble with sub-harmonic
-- **Zero audio file dependencies** — everything is synthesized
+- **Collision & merge SFX** — fully synthesized, zero audio file dependencies
 
 ### 📳 Haptic Feedback
 Custom haptic patterns for every interaction: gravity force, collisions, planet merges, weightlessness, and slider changes.
@@ -93,8 +84,6 @@ Custom haptic patterns for every interaction: gravity force, collisions, planet 
 ---
 
 ## 🛠 Tech Stack
-
-<div align="center">
 
 | Framework | Purpose |
 |-----------|---------|
@@ -104,8 +93,6 @@ Custom haptic patterns for every interaction: gravity force, collisions, planet 
 | **AVFoundation** | Real-time procedural audio synthesis |
 | **CoreMotion** | Device motion and acceleration data |
 | **FoundationModels** | Apple Intelligence AI assistant |
-
-</div>
 
 ---
 
@@ -146,15 +133,12 @@ GravityExplorer/
 - **iOS 18.0+**
 - **Xcode 16+**
 - **Swift 6.0**
-- iPad or iPhone (simulator supported)
+- iPad or iPhone
 
 ### Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/Baksheeshs/Gravity-_Explorer.git
-
-# Open in Xcode
 cd Gravity-_Explorer
 open Package.swift
 ```
@@ -184,7 +168,7 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 <div align="center">
 
-**Built with ❤️ and 🍎 Swift**
+**Built with ❤️ and Swift**
 
 *Explore. Experiment. Understand.*
 
